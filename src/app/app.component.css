@@ -39,7 +39,7 @@
 .blacksquare {
     position: absolute;
     width: 1000px;
-    height: 700px;
+    height: 100%;
     left: 0px;
     top: 0px;
     background: #292525;
