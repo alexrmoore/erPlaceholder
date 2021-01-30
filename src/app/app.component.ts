@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Placeholder';
+
+  constructor(){}
+
+  tryagainClick(): void {
+    window.location.href = 'http://physics-escape-room.live';
+  }
 }

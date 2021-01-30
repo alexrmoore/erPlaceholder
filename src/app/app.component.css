@@ -1,0 +1,76 @@
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.video {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #292525;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.titletext{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 10%;
+    left: 5%;
+    color: #fbe99e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 120px;
+    z-index: 1;
+}
+
+.text{
+    position: absolute;
+    width: 43%;
+    height: 100%;
+    top: 35%;
+    left: 5%;
+    color: #fbe99e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    z-index: 1;
+}
+
+.puzzlepiece{
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    background-image: url("./puzzle_piece.png");
+    background-size: 330px 330px;
+    left: 60%;
+    top: 15%;
+    z-index: 1;
+}
+
+.button {
+    position: absolute;
+    width: 400px;
+    height:70px;
+    left: 8%;
+    top: 67%;
+    font-size: 60px;
+    background: #3eb471;
+    text-align: center;
+    border: #525252 solid 6px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    z-index: 2;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+}
