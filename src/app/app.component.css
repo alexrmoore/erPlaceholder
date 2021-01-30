@@ -36,6 +36,15 @@
     z-index: 1;
 }
 
+.blacksquare {
+    position: absolute;
+    width: 1000px;
+    height: 450px;
+    left: 0px;
+    top: 0px;
+    background: #292525;
+}
+
 .puzzlepiece{
     position: absolute;
     width: 200px;
